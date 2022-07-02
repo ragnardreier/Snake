@@ -1,0 +1,9 @@
+{
+    "java.configuration.updateBuildConfiguration": "automatic",
+    "java.debug.settings.forceBuildBeforeLaunch": false,
+    "java.debug.settings.console": "internalConsole"
+    // "java.project.referencedLibraries": [
+    //   "lib/**/*.jar","C:\\Users\\ragna\\Informatikk\\Vår2022\\TDT4100_Prosjekt\\TDT4100_prosjekt_ragnad\\opencsv-5.6.jar"
+    // ]
+  }
+  
