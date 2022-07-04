@@ -11,7 +11,6 @@ import org.junit.jupiter.api.Test;
 
 import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
-import snake.Save;
 
 public class SnakeTest {
 
