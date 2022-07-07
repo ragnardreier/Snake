@@ -1,5 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.layout.VBox?>
 
-<VBox prefHeight="800.0" prefWidth="700.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="snake.SnakeController" />
+
+<VBox prefHeight="800.0" prefWidth="700.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="snake.SnakeController">
+   <children>
+      <AnchorPane prefHeight="804.0" prefWidth="700.0">
+         <children>
+            <Button layoutX="241.0" layoutY="685.0" mnemonicParsing="false" prefHeight="60.0" prefWidth="60.0" text="LEFT" />
+            <Button layoutX="397.0" layoutY="685.0" mnemonicParsing="false" prefHeight="60.0" prefWidth="60.0" text="RIGHT" />
+            <Button layoutX="320.0" layoutY="685.0" mnemonicParsing="false" prefHeight="60.0" prefWidth="60.0" text="DOWN" />
+            <Button layoutX="320.0" layoutY="612.0" mnemonicParsing="false" prefHeight="60.0" prefWidth="60.0" text="UP" />
+            <AnchorPane layoutX="48.0" layoutY="39.0" prefHeight="520.0" prefWidth="620.0" style="-fx-border-color: black; -fx-background-color: grey; -fx-border-width: 15;" AnchorPane.bottomAnchor="240.0" AnchorPane.leftAnchor="40.0" AnchorPane.rightAnchor="40.0" AnchorPane.topAnchor="40.0" />
+            <Button layoutX="600.0" layoutY="612.0" mnemonicParsing="false" prefHeight="60.0" prefWidth="60.0" text="SAVE" />
+            <Button layoutX="600.0" layoutY="685.0" mnemonicParsing="false" prefHeight="60.0" prefWidth="60.0" text="LOAD" />
+            <TextField layoutX="471.0" layoutY="630.0" prefHeight="25.0" prefWidth="122.0" />
+         </children>
+      </AnchorPane>
+   </children>
+</VBox>
